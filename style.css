@@ -64,6 +64,10 @@ margin: 25px 10px;
         font-weight: 500;
         text-transform: uppercase;
     }
+.link.team{
+    border-bottom: black 4px solid;
+}
+
     .link:hover{
        color: rgb(124, 121, 121);
     }
@@ -242,7 +246,7 @@ margin: 25px 10px;
         flex-direction: column;
         margin: 0;
         padding: 0;
-        height: 260px;
+        height: 300px;
         justify-content: center;
         align-items: center;
  }
@@ -263,9 +267,9 @@ margin: 25px 10px;
         font-size: 14px;
         margin-left: auto;
     }
-  .hero{
+  /* .hero{
       height: 65vh;
-  }  
+  }   */
  .hero-content p{
 display: none;
 }
