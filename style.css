@@ -246,7 +246,7 @@ margin: 25px 10px;
         flex-direction: column;
         margin: 0;
         padding: 0;
-        height: 300px;
+        height: 280px;
         justify-content: center;
         align-items: center;
  }
@@ -256,6 +256,21 @@ margin: 25px 10px;
     margin-top: 0;
     padding: 0;
     }
+
+    .link{
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .nav-list li:nth-of-type(1){
+        font-size: 30px;
+        margin-left: 100px;
+        margin-top: auto;
+        text-transform: none;
+        font-family: 'Kiwi Maru', serif;
+    }
+
  .nav-list li:nth-of-type(6){
     display: none;
  }
@@ -276,7 +291,8 @@ display: none;
 .hero-content h1{
         font-size: 80px;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
+
 }
 
 .text{
